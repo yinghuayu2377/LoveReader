@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/htmlcontent_layout"
+    android:layout_height="match_parent">
+
+    <!--顶部工具栏-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45.0dp"
+        android:id="@+id/top_tool_11"
+        android:background="#52e494">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/base_action_bar_back_normal"
+            android:id="@+id/return_select_11"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="新闻标题"
+            android:textColor="#ffffff"
+            android:textSize="12dp"
+            android:layout_toRightOf="@id/return_select_11"
+            android:layout_centerVertical="true"
+            android:id="@+id/title_text_11"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="5dp"
+        android:textSize="18dip"
+        android:id="@+id/text_content"/>
+</LinearLayout>
